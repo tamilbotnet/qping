@@ -18,7 +18,9 @@ Now navigate to qping directory
 cd qping
 ```
 Now you can run qping
-	Python qping.py subdomainlist.txt 
+``` bash
+	Python qping.py subdomainlist.txt
+```	 
 ![Alt text](https://github.com/tamilbotnet/qping/blob/master/img/1.png?raw=true " Step 1")
 
 ![Alt text](https://github.com/tamilbotnet/qping/blob/master/img/2.png?raw=true " Step 2")
