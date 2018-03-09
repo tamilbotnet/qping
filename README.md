@@ -7,12 +7,16 @@ Linux and Windows
 #### •	Python 
 #### •	requests module needs to be installed.
 # Installation:
-pip install requests 
+## pip install requests 
 To run the file
+``` bash
 git clone https://github.com/tamilbotnet/qping.git 
+```
 Your URL has to be given above.
 Now navigate to qping directory
+``` bash
 cd qping
+```
 Now you can run qping
 	Python qping.py subdomainlist.txt 
 ![Alt text](https://github.com/tamilbotnet/qping/blob/master/img/1.png?raw=true " Step 1")
