@@ -4,7 +4,7 @@ qping: qping is simple python tool for finding bunch of live subdomains.Generall
 # Supported OS:
 Linux and Windows
 # Pre requisites:
-####•	Python 
+#### •	Python 
 #### •	requests module needs to be installed.
 # Installation:
 pip install requests 
