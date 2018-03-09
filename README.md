@@ -1,12 +1,12 @@
 # qping
 qping: qping is simple python tool for finding bunch of live subdomains.Generally subdomain enumeration tools (Eg. sublist3r) provide a list that consists of both Live and down subdomains. Hence the user time will be wasted to separate the live sub domains alone. So we have introduced this simple qping tool to get the live subdomains. qping read the subdomain list which is provided by subdomain enumeration tool and gives the online subdomain list separately for bug bounty.
 
-Supported OS:
+# Supported OS:
 Linux and Windows
-Pre requisites:
+# Pre requisites:
 •	Python 
 •	requests module needs to be installed.
-Installation:
+# Installation:
 pip install requests 
 To run the file
 git clone https://github.com/tamilbotnet/qping.git 
