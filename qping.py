@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 #
-# Updated by Crazy Danish Hacker
+# Updated by Crazy Danish Hacker,abu
 
 import requests
 import sys
 
 timeout = 3
 verbose = True
-version = "1.0.1"
+version = "1.0.2"
 banner = """
              _             
             (_)            
@@ -20,7 +20,7 @@ banner = """
 
                       by TamilBotNet
                       version: {}
-      Updated by Crazy Danish Hacker
+      Updated by Crazy Danish Hacker,abu
 """.format(version, sys.argv[0])
 
 usage = "\n [SYNTAX]  python {} target.txt"
