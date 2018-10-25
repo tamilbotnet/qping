@@ -65,6 +65,8 @@ def main():
                 print("[-] Domain timed out! ({})".format(url))
             except requests.exceptions.ConnectionError:
                 print("[-] Domain may not exist! ({})".format(url))
+            except requests.exceptions.TooManyRedirects:
+                print("[-] Domain has too many redirects! ({})".format(url))
 
 
 if __name__ == "__main__":
