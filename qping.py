@@ -58,7 +58,7 @@ def main():
                         output_file.close()  # Not sure if we need to call close() here as "with open" may handle that.
                 else:
                     extra = "HTTP {}".format(req.status_code) if verbose else ""
-                    print("[-] Domain did not return 200 OK! ({}) {}".format(url, extra))
+                    print("[-] Domain did not return 200 ({}) {}".format(url, extra))
             except KeyboardInterrupt:
                 exit()
             except requests.exceptions.Timeout:
